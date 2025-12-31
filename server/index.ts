@@ -203,7 +203,7 @@ app
         cookie: {
           maxAge: 1000 * 60 * 60 * 24 * 30,
           httpOnly: true,
-          sameSite: settings.network.csrfProtection ? 'none' : 'lax', // Changed in jwrc/feature/sameSite
+          sameSite: settings.network.csrfProtection ? 'strict' : 'none', // Changed in jwrc/feature/sameSite
           secure: 'auto',
         },
         store: new TypeormStore({
