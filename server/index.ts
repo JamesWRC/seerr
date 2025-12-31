@@ -204,7 +204,7 @@ app
           maxAge: 1000 * 60 * 60 * 24 * 30,
           httpOnly: true,
           sameSite: settings.network.csrfProtection ? 'strict' : 'none', // Changed in jwrc/feature/sameSite
-          secure: 'auto',
+          secure: settings.network.csrfProtection ? 'auto' : 'true', // Changed in jwrc/feature/sameSite
         },
         store: new TypeormStore({
           cleanupLimit: 2,
