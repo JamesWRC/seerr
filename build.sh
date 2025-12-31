@@ -31,7 +31,7 @@ fi
 
 
 PLUS_GIT_BRANCH="jwrc/build"
-PLUS_DOCKER_BUILD_TAG='v2.7.3.0-plus'
+PLUS_DOCKER_BUILD_TAG='jameswrc/v2.7.3.0-plus'
 
 # Get lastest commit SHA from overseerr releases.
 latestOverseerrReleaseTag=$(curl -s 'https://api.github.com/repos/seerr-team/seerr/tags' | python3 -c 'import json,sys;obj=json.load(sys.stdin);print(obj[0]["name"])')
