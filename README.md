@@ -1,3 +1,14 @@
+## Changes made in this fork:
+The sum of all changes below are in the [jwrc/build](https://github.com/JamesWRC/seerr/tree/jwrc/build) branch, which is (manually) kept upto date with the upstream develop branch.
+
+#### sameSite
+Before:
+- The `SameSite` value in the cookie would be either lax or strict. Strict only if CSRF protection is on.
+
+After:
+- The `SameSite` value in the cookie is either none or strict. Strict only if CSRF protection is on.
+
+
 <div align="center">⚠️ <strong>NOTE:</strong> We are currently in the process of merging Overseerr and Jellyseerr into this unified repository.</div>
 
 <h1 align="center" style="font-size: 4em;">🚧 Seerr</h1>
