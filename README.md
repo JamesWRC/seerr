@@ -1,4 +1,6 @@
 ## Changes made in this fork:
+Docker image of the below changes: [jameswrc/overseerrplus:v2.7.3.0-plus](https://hub.docker.com/repository/docker/jameswrc/overseerrplus)
+
 The sum of all changes below are in the [jwrc/build](https://github.com/JamesWRC/seerr/tree/jwrc/build) branch, which is (manually) kept upto date with the upstream develop branch.
 
 #### sameSite
@@ -8,6 +10,9 @@ Before:
 After:
 - The `SameSite` value in the cookie is either none or strict. Strict only if CSRF protection is on.
 
+---
+Below is the original README of seerr
+---
 
 <div align="center">⚠️ <strong>NOTE:</strong> We are currently in the process of merging Overseerr and Jellyseerr into this unified repository.</div>
 
